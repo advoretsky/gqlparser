@@ -37,11 +37,8 @@ type Location struct {
 
 type List []*Error
 
-func (err *Error) Error() string {
+func (err Error) Error() string {
 	var res bytes.Buffer
-	if err == nil {
-		return ""
-	}
 	filename, _ := err.Extensions["file"].(string)
 	if filename == "" {
 		filename = "input"
