@@ -1,10 +1,10 @@
 package parser
 
 import (
-	"github.com/advoretsky/gqlparser/v2/lexer"
+	"github.com/vektah/gqlparser/v2/lexer"
 
 	//nolint:revive
-	. "github.com/advoretsky/gqlparser/v2/ast"
+	. "github.com/vektah/gqlparser/v2/ast"
 )
 
 func ParseQuery(source *Source) (*QueryDocument, error) {

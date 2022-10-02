@@ -1,13 +1,13 @@
 package gqlparser
 
 import (
-	"github.com/advoretsky/gqlparser/v2/ast"
-	"github.com/advoretsky/gqlparser/v2/gqlerror"
-	"github.com/advoretsky/gqlparser/v2/parser"
-	"github.com/advoretsky/gqlparser/v2/validator"
+	"github.com/vektah/gqlparser/v2/ast"
+	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/vektah/gqlparser/v2/parser"
+	"github.com/vektah/gqlparser/v2/validator"
 
 	// Blank import is used to load up the validator rules.
-	_ "github.com/advoretsky/gqlparser/v2/validator/rules"
+	_ "github.com/vektah/gqlparser/v2/validator/rules"
 )
 
 func LoadSchema(str ...*ast.Source) (*ast.Schema, error) {

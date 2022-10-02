@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/advoretsky/gqlparser/v2/ast"
+	"github.com/vektah/gqlparser/v2/ast"
 
 	//nolint:revive // Validator rules each use dot imports for convenience.
-	. "github.com/advoretsky/gqlparser/v2/validator"
+	. "github.com/vektah/gqlparser/v2/validator"
 )
 
 func init() {

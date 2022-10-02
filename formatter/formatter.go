@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/advoretsky/gqlparser/v2/ast"
+	"github.com/vektah/gqlparser/v2/ast"
 )
 
 type Formatter interface {
@@ -556,7 +556,7 @@ func (f *formatter) FormatVariableDefinition(def *ast.VariableDefinition) {
 		f.FormatValue(def.DefaultValue)
 	}
 
-	// TODO https://github.com/advoretsky/gqlparser/v2/issues/102
+	// TODO https://github.com/vektah/gqlparser/v2/issues/102
 	//   VariableDefinition : Variable : Type DefaultValue? Directives[Const]?
 }
 
