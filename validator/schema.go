@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	//nolint:revive
-	. "github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"github.com/vektah/gqlparser/v2/parser"
+	. "github.com/advoretsky/gqlparser/v2/ast"
+	"github.com/advoretsky/gqlparser/v2/gqlerror"
+	"github.com/advoretsky/gqlparser/v2/parser"
 )
 
 func LoadSchema(inputs ...*Source) (*Schema, error) {

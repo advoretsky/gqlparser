@@ -2,8 +2,8 @@ package parser
 
 import (
 	//nolint:revive
-	. "github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/lexer"
+	. "github.com/advoretsky/gqlparser/v2/ast"
+	"github.com/advoretsky/gqlparser/v2/lexer"
 )
 
 func ParseSchema(source *Source) (*SchemaDocument, error) {

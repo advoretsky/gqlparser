@@ -10,11 +10,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/advoretsky/gqlparser/v2"
+	"github.com/advoretsky/gqlparser/v2/ast"
+	"github.com/advoretsky/gqlparser/v2/gqlerror"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/v2"
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"gopkg.in/yaml.v2"
 )
 
 type Spec struct {

@@ -6,9 +6,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/advoretsky/gqlparser/v2/gqlerror"
 	"github.com/andreyvit/diff"
-	"github.com/vektah/gqlparser/v2/gqlerror"
-	"gopkg.in/yaml.v2"
 )
 
 type Features map[string][]Spec

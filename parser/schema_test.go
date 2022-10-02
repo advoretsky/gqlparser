@@ -3,11 +3,11 @@ package parser
 import (
 	"testing"
 
+	"github.com/advoretsky/gqlparser/v2/gqlerror"
 	"github.com/stretchr/testify/assert"
-	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/vektah/gqlparser/v2/ast"
-	"github.com/vektah/gqlparser/v2/parser/testrunner"
+	"github.com/advoretsky/gqlparser/v2/ast"
+	"github.com/advoretsky/gqlparser/v2/parser/testrunner"
 )
 
 func TestSchemaDocument(t *testing.T) {
